@@ -152,8 +152,8 @@ color:white;
 }
 @media (min-width: 50px) and (max-width: 300px) {
   .bg-icons{
-    width:16px;
-    height:16px;
+    width:20px;
+    height:20px;
     }
   .logo-mobile{
     width:50px;
