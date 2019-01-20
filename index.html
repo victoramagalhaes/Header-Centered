@@ -4,15 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
     <!-- Estilo utilizado no header -->
     <link rel="stylesheet" type="text/css" href="./style.css" media="screen" />
+
     <!-- Import 4.1.3. Versão do Bootstrap utilizado -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+   
+    <!-- Import 5.6.3. Versão do Font Awesome utilizado-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    
+    <!-- Import do código Jquery utilizado -->
     <script src="./script.js"></script>
-    <title>Header Gostoso</title>
+    
+    <title>Header</title>
 </head>
 <body>
     <nav class="navbar navbar-light justify-content-between">
@@ -20,29 +28,45 @@
                 <button class="navbar-toggler open-menu" type="button" data-toggle="collapse" data-target=".dual-nav">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <a href="/" class="navbar-brand mx-auto d-block text-center order-0 order-md-1 w-25">Brand</a>
-                <div class="navbar-collapse collapse dual-nav w-50 order-2">
-                    <ul class="nav navbar-nav ml-auto">
-                        <li class="nav-item"><a class="nav-link" href=""><i class="fa fa-twitter"></i></a></li>
-                        <li class="nav-item"><a class="nav-link" href=""><i class="fa fa-github"></i></a></li>
+                <!-- Link do site ao clicar na logo -->
+                <a href="/" class="navbar-brand mx-auto d-block text-center order-0 order-md-1 w-40">
+                    <!-- Link da imagem -->
+                    <img src="http://gostosobeachhouse.com.br/wp-content/uploads/2018/11/LOGO-SITE.png" width="140px" height="110px" alt="">
+                </a>
+                <div class="dual-nav w-40 order-1">
+                    <ul class="nav navbar-nav flex-row ml-auto">
+                         <!-- Icones da direita, Font Awesome  -->
+                        <li class="nav-item mr-2">
+                        <a class="nav-link" href="">
+                           <div class="bg-icons"><i class="fab fa-facebook-f fa-lg"></i></div>
+                        </a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="">
+                            <div class="bg-icons"><i class="fab fa-instagram"></i></div>
+                        </a>
+                        </li>
                     </ul>
                 </div>
             </div>
         </nav>
+        <!-- Class 'close-menu' fecha o painel do menu. -->
         <div class="overlay">
                 <div class="close-menu positionX">x</div>
-                <h2 class="nav-title">Navigation</h2>
+                <!-- Titulo do menu -->
+                <h2 class="nav-title">Menu</h2>
                 <nav class="overlay-menu">
-                    
+                <!-- Links dos menus -->
                   <ul>
-                    <li><a href="#">Our Store</a></li>
-                    <li><a href="#">Catalog</a></li>
-                    <li><a href="#">Delivery</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">TESTE</a></li>
+                    <li><a href="#">IMPERDÍVEL</a></li>
+                    <li><a href="#">CONCIERGE</a></li>
+                    <li><a href="#">GALERIA</a></li>
+                    <!-- Texto alternativo -->
+                    <p style="color:rgb(206, 206, 206)">Reservas ...
+                        8494499449
+                    </p>
                   </ul>
                 </nav>
-              </div>
-            
+        </div>
 </body>
 </html>
