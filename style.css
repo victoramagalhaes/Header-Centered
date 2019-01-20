@@ -139,7 +139,8 @@ border-radius: 4px;
 background-color:black;
 color:white;
 }
-@media (min-width: 320px) and (max-width: 480px) {
+/* Correção para celulares mais antigos */
+@media (min-width: 100px) and (max-width: 480px) {
   .bg-icons{
     width:29px;
     height:29px;
@@ -154,7 +155,7 @@ color:white;
 width:32px;
 height:33px;
 }
-/*Deixando a borda transparente. menu hamburguer BOOTSTRAP */
+/* Deixando a borda transparente. menu hamburguer BOOTSTRAP */
 .navbar-toggler{
   border-color:transparent !important;
 }
