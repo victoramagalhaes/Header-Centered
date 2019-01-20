@@ -147,3 +147,11 @@ height:33px;
 .navbar-toggler{
   border-color:transparent !important;
 }
+/* Centralizar os Icones */
+.ajuste-nav{
+margin-right:10%;
+}
+/* Centralizar o Menu */
+.ajuste-menu{
+margin-left:10%; 
+}
