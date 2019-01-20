@@ -141,10 +141,15 @@ color:white;
 }
 @media (min-width: 320px) and (max-width: 480px) {
   .bg-icons{
-    width:25px;
-    height:25px;
+    width:29px;
+    height:29px;
     }
+  .logo-mobile{
+    width:90px;
+    height:70px;
+  }
 }
+
 .icon-size{
 width:32px;
 height:33px;
