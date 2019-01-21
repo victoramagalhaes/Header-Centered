@@ -170,7 +170,7 @@ height:33px;
   border-color:transparent !important;
 }
 /* So para desktop */
-@media (min-width: 1281px) {
+@media (min-width: 768px) {
   /* Centralizar os Icones */
   .ajuste-nav{
   margin-right:30%;
